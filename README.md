@@ -10,6 +10,7 @@ log-transformed target (`log1p(rate_per_mile)`, rescaled by `distance` at predic
 ├── README.md
 ├── report.docx
 ├── requirements.txt
+├── validation_predictions.csv
 ├── solution.ipynb        # full pipeline: EDA -> features -> split -> tuning -> predictions
 └── data/                       # not included in this repo — see Setup below
     ├── train-test.csv
