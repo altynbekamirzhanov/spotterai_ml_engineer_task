@@ -36,7 +36,7 @@ log-transformed target (`log1p(rate_per_mile)`, rescaled by `distance` at predic
 1. Open and run all cells in `solution.ipynb` top to bottom (`jupyter notebook` or
    `jupyter nbconvert --to notebook --execute`). This will:
    - Clean and explore `data/train-test.csv`
-   - Engineer features and split train/test chronologically (85/15 by date)
+   - Engineer features and split train/test chronologically (80/20 by date)
    - Impute missing values using train-only statistics
    - Report held-out MAE/RMSE and segment-level error
    - Write `validation_predictions.csv` (from `data/validation.csv`)
